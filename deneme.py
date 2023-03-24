@@ -35,7 +35,7 @@ class DietTracker:
         # Create the about tab that will hold the text information about the app
         # use a bit larger font size
         about_text = """Made by: Ruşen Birben, 2023\n 
-        This is a project for the Python course at the Istanbul Technical University.\n
+        This is a project for the Python course at Istanbul Technical University.\n
         This app is a simple weight tracker that allows you to add your weight and date to a database and view it in a table or plot."""
         self.about = ttk.Frame(self.main_notebook)
         self.about_label = tk.Label(self.about, text=about_text, font=("Arial", 14))
